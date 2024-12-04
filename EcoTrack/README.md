@@ -24,15 +24,19 @@ EcoTrack is a blockchain-based application designed to track personal carbon foo
 2. Install dependencies:
   ``` bash 
   npm install
+  ```
 3. Start the DFX project:
   ``` bash 
   dfx start
+  ```
 4. Deploy the canister:
   ```bash
   dfx deploy
+  ```
 5. Run the application locally:
   ```bash
   npm run dev
+  ```
 
 ## API Endpoints
 - POST /footprints: Create a new carbon footprint entry
